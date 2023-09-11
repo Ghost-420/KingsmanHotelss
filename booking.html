@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kingsman Hotels</title>
+        <link rel="stylesheet" href="styles/home.css">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#f5f5f5">
+        <link rel="shortcut icon" href="favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#f5f5f5">
+        <meta name="msapplication-config" content="favicons/browserconfig.xml">
+        <meta name="theme-color" content="#f5f5f5">
+        
+
+
+    </head>
+
+    <body class="book-body">
+        <section class="book-header">
+            <nav>
+                <a href="#"><img id="logo"   src="images/oglogo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <img src="images/icons/cross2.png" class="fa" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="branches.html">Branches</a></li>
+                        <li><a href="adventures.html">Adventure</a></li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li>
+                            <a href="#">Events ▼</a>
+                            <ul class="dropdown">
+                                <li><a href="weddings.html">Weddings</a></li>
+                                <li><a href="workshop.html">Workshops </a></li>
+                            </ul>                                                                       
+                        </li>
+                        <li><a href="booking.html">Bookings</a></li>
+                    </ul>
+                </div>
+                <img src="images/icons/menubar.png" class="fa" onclick="showMenu()">
+            </nav>
+        
+            <div class="rest-topic">
+                <h1>Book Your Stay</h1>
+            </div>
+        </section>
+        
+        <section class="main-book">
+            <form>
+            
+
+            <div class="book-container">
+                <div class="book-title">Personal Details</div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="UserName" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Gmail</span>
+                            <input type="text" placeholder="YourGmail@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Official Address</span>
+                            <input type="text" placeholder="Home Address" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">ID/NIC</span>
+                            <input type="text" placeholder="ID/NIC" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Phone number</span>
+                            <input type="number" placeholder="+9412235262" required>
+                        </div>
+                    </div>
+                    
+                </form>
+            
+
+        
+
+            
+                <div class="book-title">Booking Rooms</div>
+                <form action="#">
+                    <div class="dropdown  user-details  input-box">
+                        <span class="details">Adults</span><Br>
+                        <select class="input">
+                            <option value="option1">1</option>
+                            <option value="option2">2</option>
+                            <option value="option3">3</option>
+                        </select>
+                    </div>
+                    <div class="dropdown  user-details  input-box">
+                        <span class="details">Children (Below 12)</span><Br>
+                        <select class="input">
+                            <option value="option1">1</option>
+                            <option value="option2">2</option>
+                            <option value="option3">3</option>
+                        </select>
+                    </div>
+                    <div class="dropdown  user-details  input-box">
+                        <span class="details">Rooms</span><Br>
+                        <select class="input">
+                            <option value="option1">Single Room</option>
+                            <option value="option2">Double Room</option>
+                            <option value="option3">Thriple Room</option>
+                        </select>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Check-In</span>
+                            <input type="date" placeholder="dd/mm/yyyy" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Check-Out</span>
+                            <input type="date" placeholder="dd/mm/yyyy" required maxlength="5">
+                        </div>
+                    </div>
+                    <div class="dropdown  user-details  input-box">
+                        <span class="details">Rooms</span><Br>
+                        <select class="input">
+                            <option value="option1">Single Room</option>
+                            <option value="option2">Double Room</option>
+                            <option value="option3">Thriple Room</option>
+                        </select>
+                    </div>
+
+                   
+                    
+                </form>
+
+            
+            
+            
+
+            
+
+                
+                    <div class="book-title">Booking Adventures</div>
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Full Name</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Date</span>
+                                <input type="date" placeholder="dd/mm/yyyy" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Gmail</span>
+                                <input type="email" placeholder="youremail@gmail.com" required>
+                            </div>
+                        </div>
+                        <div class="dropdown  user-details  input-box">
+                            <span class="details">Adults</span><Br>
+                            <select class="input">
+                                <option value="option1">1</option>
+                                <option value="option2">2</option>
+                                <option value="option3">3</option>
+                            </select>
+                        </div>
+                        <div class="dropdown  user-details  input-box">
+                            <span class="details">Children (Below 12)</span><Br>
+                            <select class="input">
+                                <option value="option1">1</option>
+                                <option value="option2">2</option>
+                                <option value="option3">3</option>
+                            </select>
+                        </div>
+                        <div class="dropdown  user-details  input-box">
+                            <span class="details">Adventures</span><Br>
+                            <select class="input">
+                                <option value="option1">Hiking</option>
+                                <option value="option2">Scuba Diving</option>
+                                <option value="option3">Turtle Hatchery Farm</option>
+                                
+                            </select>
+                        </div>
+                   
+                    </form> 
+
+                    <center><br><br>
+                    <div class="button-container">
+                        <button type="submit" class="submit-button">BOOK</button>
+                    </div></center>
+            </form>
+        </section>                    
+                
+
+                <footer>
+                    <div class="footer-container">
+        
+                        <div class="foot-logo">
+                            <img src="images/oglogo.png">
+                        </div>
+                        
+                        <div class="sec-aboutus">
+                            <h2>About Us</h2>
+                            <p>Our story at Kingsman Hotels is one of devoted hospitality and a dedication to giving our visitors unmatched comfort.
+                                 We have established ourselves as a reputable brand in the hospitality sector thanks to a long history.</p>
+                            <ul class="sci">
+        
+                                <li><a href="#"><img src="images/icons/insta1.png" ></a></li>
+                                <li><a href="#"><img src="images/icons/twitter.png"></a></li>
+                                <li><a href="#"><img src="images/icons/facebook.png"></a></li>
+                                <li><a href="#"><img src="images/icons/youtube.png"></a></li>
+                                <li><a href="#"><img src="images/icons/linkedin.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="sec-quicklinks">
+                            <h2>Quick Pages</h2>
+                            <ul>
+                                <li> <a href="index.html">Home</a> </li>
+                                <li> <a href="branches.html">Branches</a> </li>
+                                <li> <a href="adventures.html">Adventures</a> </li>
+                                <li> <a href="restaurant.html">Restaurants</a> </li>
+                               
+                                
+                            </ul>
+                        </div>
+        
+                        <div class="hours">
+                            <h2>Operating Hours</h2>
+                            <p> Mon-Sat : 8AM to 6PM</p> <br>
+                            <p> Sun : 8AM to 2PM</p>
+                        </div>
+                        <div class="sec-contact">
+                            <h2>Contact Us</h2>
+                            <ul class="info">
+                                <li>
+                                    <span><img src="images/icons/mapmark.png"></span>
+                                    &nbsp;&nbsp;&nbsp;<p>&nbsp;420 Glock Street<Br>
+                                    Sri Lanka, Pw 3433, <BR>SL</p>
+                                </li>
+                                <li>
+                                    <span><img src="images/icons/phone3.png" ></span>
+                                    <p><a href="tel:+12852525">+94 213 242 43</a><br>
+                                        <a href="tel:+12852525">+235 1542 2626</a></p>   
+                                </li>
+                                <li>
+                                    <span><img src="images/icons/envelope.png"></span>
+                                    <p><a href="mailto:Kingsman@gmail.com">Kingsman@gmail.com</a> </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+<!----
+
+header:
+
+Tong, D. (2016) Brown Wooden Sofa Set With Lighted Table Lamp · Free Stock Photo, Pexels. Available at: https://www.pexels.com/photo/brown-wooden-sofa-set-with-lighted-table-lamp-189333/.
+
+background :
+
+Ngamnithiporn, N. (2021) “Download White pillow decoration on bed in hotel resort bedroom for free,” Vecteezy [Preprint]. Available at: https://www.vecteezy.com/photo/2809134-white-pillow-decoration-on-bed-in-hotel-resort-bedroom.
+
+footer social icons :
+
+Instagram Icons, Logos, Symbols – Free download PNG, SVG (no date b). Available at: https://icons8.com/icons/set/instagram.
+Facebook Icons, Logos, Symbols – Free download PNG, SVG (no date). Available at: https://icons8.com/icons/set/facebook.
+YouTube Icons, Logos, Symbols – Free download PNG, SVG (no date). Available at: https://icons8.com/icons/set/youtube.
+LinkedIn Icons, Logos, Symbols – Free download PNG, SVG (no date). Available at: https://icons8.com/icons/set/linkedin.
+Twitter Icons, Logos, Symbols – Free download PNG, SVG (no date). Available at: https://icons8.com/icons/set/twitter.       ---->
+        
+                </footer>
+                <div class="copyright-text">
+                    <p>Copyright © 1969 Kingsman Hotels. All Rights Reserved</p>
+                </div>
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+    
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+    
+    
+    
+    
+        </script>
+    </body>
+
+
+</html>

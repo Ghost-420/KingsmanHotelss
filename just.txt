@@ -1,0 +1,1196 @@
+©
+
+
+
+/*
+footer {
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #19376D;
+    
+  }
+footer .footer-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 70px;
+  }
+
+footer .footer-container .sec-aboutus h2 {
+    position: relative;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  footer .footer-container .sec-quicklinks h2 {
+    position: relative;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  footer .footer-container .sec-contact h2 {
+    position: relative;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  footer .footer-container .hours h2 {
+    position: relative;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+footer .footer-container .sec-aboutus h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #e2611b;
+  }
+
+  footer .footer-container .sec-quicklinks h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #e2611b;
+  }
+
+  footer .footer-container .sec-contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #e2611b;
+  }
+
+  footer .footer-container .hours h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    background: #e2611b;
+  }
+
+  .hours p{
+    color: #f7f7f7;
+
+  }
+
+footer .footer-container .sec-aboutus p{
+    color: #fff;
+
+  }
+
+.sci {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+    grid-gap: 10px;
+  }
+
+.sci li{
+    list-style: none;
+  }
+
+.sci li a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    
+
+
+  }
+.sci li a:hover {
+    
+    transform: translateY(-3px);
+    transition: 0.4s;
+
+  }
+
+
+
+.sci li a .fa {
+    color: #fff;
+    font-size: 20px;
+
+  }
+
+.sec-quicklinks li {
+    list-style: none;
+  }
+
+.sec-quicklinks li a {
+    color: #f7f7f7;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+
+  }
+
+.sec-quicklinks li a:hover {
+    color: gold;
+    
+
+  }
+.info {
+    position: relative;
+}
+
+.info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+
+.sec-contact {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.sec-contact li a {
+    color: #f7f7f7;
+
+}
+
+.sec-contact li a:hover {
+    color: gold;
+
+}
+
+.foot-logo{
+  
+  margin-right: 1.25eem;
+  margin-bottom: 2em;
+}
+
+.foot-logo img{
+  width: 100px;
+  height: 100px;
+  margin-right: 1.25eem;
+  margin-bottom: 2em;
+}
+
+.copyright-text {
+  
+  text-align: center;
+  background-color: #254480;
+}
+.copyright-text p{
+  color: #f7f7f7;
+} */
+/*
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+  
+  footer .footer-container {
+    flex-direction: column;
+
+    }
+  footer .footer-container .sec-aboutus {
+    margin-right: 0;
+    margin-bottom: 40px;
+
+  }
+  footer .footer-container .sec-contact {
+    margin-right: 0;
+    margin-bottom: 40px;
+
+  }
+  footer .footer-container .sec-quicklinks {
+    margin-right: 0;
+    margin-bottom: 40px;
+
+  }
+  footer .footer-container .sec-aboutus {
+
+    width: 100%;
+  }
+  footer .footer-container  .sec-contact{
+
+    width: 100%;
+  }
+  footer .footer-container .sec-quicklinks {
+
+    width: 100%;
+  }
+  .copyright-text {
+
+    padding: 8px 40px;
+   
+  }
+  
+} */
+
+
+/*
+@media (max-width:991px) {
+  footer {
+    padding: 40px;
+  }
+  footer .footer-container {
+    
+    grid-template-columns: repeat(2,1fr);
+    
+  } 
+  */
+
+/*@media (max-width:768px){
+  footer {
+    padding: 40px;
+  }
+  footer .footer-container {
+    
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+}*/
+
+/*.sec-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+  } */
+
+
+
+  /*
+@media (max-width: 768px) {
+  .adv-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .adv-container .card {
+    max-width: 100%;
+  }
+}
+
+
+*/
+
+
+/*
+@media (max-width:768px) {
+  .adv-box{
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+  }
+
+  .adv-container {
+    width: 80%;
+    flex-direction: column;
+    
+  }
+  .adv-container .card {
+    width: 100%;
+    left: -100px;
+    align-content: center;
+    
+  }
+  
+  .adv-container .card:hover {
+    height: 400px;
+  }
+  
+  .adv-container .card .imgBx {
+    width: 80%;
+    height: 150px;
+    left: 23px;
+    
+  }
+  
+  .adv-container .card:hover .imgBx {
+    top: -50px;
+    scale: 0.9;
+  }
+  
+  .adv-container .card .adv-content {
+    top: 175px;
+    text-align: center;
+  }
+  
+  .adv-container .card:hover .adv-content {
+    top: 100px;
+    height: auto;
+  }
+  
+  .adv-container .card .adv-content h2 {
+    font-size: 20px;
+  }
+}
+  */
+
+
+/*
+@media only screen and (max-width: 600px) {
+  .adventure-header {
+    min-height: 50vh;
+  }
+
+  .adv-container {
+    padding: 50px 10px;
+    gap: 50px;
+  }
+
+  .adv-container .card {
+    width: 80%;
+    
+  }
+  
+  .adv-container .card:hover {
+    height: 300px;
+  }
+  
+  .adv-container .card .imgBx {
+    width: 80%;
+    height: 150px;
+    right: 50px;
+  }
+  
+  .adv-container .card:hover .imgBx {
+    top: -50px;
+    scale: 0.9;
+  }
+  
+  .adv-container .card .adv-content {
+    top: 175px;
+  }
+  
+  .adv-container .card:hover .adv-content {
+    top: 100px;
+    height: auto;
+  }
+  
+  .adv-container .card .adv-content h2 {
+    font-size: 1.2em;
+  }
+}
+
+
+*/
+
+
+
+
+
+  @media (max-width:768px) {
+
+   
+    
+    .sec {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem; 
+      width: 95%;
+      
+      
+    }
+
+    .sec-img img{
+      width: 100%;
+      height: auto;
+    }
+    .sec-content {
+      text-align: center;
+
+    }
+
+    
+    .sec-header{
+      font-size: 24px;
+    }
+
+    .branch-header {
+      min-height: 40vh;
+
+    }
+
+    .branch-topic h1{
+      font-size: 60px;
+    }
+    .table {
+      width: 60vw;
+    }
+    .table_header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+
+    td img {
+      width: 100px;
+      height: 100px;
+    }
+
+    td iframe {
+      width: 100px;
+      height: 100px;
+    }
+
+    
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .branch-topic {
+      font-size: 20px;
+    }
+
+    /* For tablets like iPad Mini, Surface Duo*/
+    .sec {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+  
+
+    /* For larger tablets like Surface Pro 7, Nest Hub Max */
+    .sec {
+        width: 85%; 
+    }
+}
+
+
+
+
+
+
+
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+
+
+
+        <section class="main_backg">
+            <br>
+            <section class="sec">
+                
+                <div class="sec-img">
+                    <img src="images/jaffna.jpg">
+                </div>
+                <div class="sec-content">
+                    <h1 class="sec-header">Jaffna</h1>
+                    <iframe src="http://maps.google.co.uk/maps?q=LeGrandGalle &amp;output=embed" width="400" height="300" frameborder="1" scrolling="no"></iframe>
+                    
+                    
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Interdum consectetur libero id faucibus nisl tincidunt eget. Feugiat nisl pretium fusce id velit ut tortor pretium. A pellentesque sit amet porttitor eget dolor morbi. Aliquam malesuada bibendum arcu vitae 
+                        elementum curabitur vitae nunc sed. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor</p>
+                </div>
+            </section>
+            <Br>
+           
+            <section class="sec">
+                
+                <div class="sec-content">
+                    <h1 class="sec-header">Trincomalee</h1>
+                    <iframe src="http://maps.google.co.uk/maps?q=LeGrandGalle &amp;output=embed" width="400" height="300" frameborder="1" scrolling="no"></iframe>
+                    
+                    
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Interdum consectetur libero id faucibus nisl tincidunt eget. Feugiat nisl pretium fusce id velit ut tortor pretium. A pellentesque sit amet porttitor eget dolor morbi. Aliquam malesuada bibendum arcu vitae 
+                        elementum curabitur vitae nunc sed. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor</p>
+                </div>
+                <div class="sec-img">
+                    <img src="images/trinco.webp">
+                </div>
+            </section> 
+            <Br>
+            
+            <section class="sec">
+                
+                <div class="sec-img">
+                    
+                    <img src="images/galle1.jpg" >
+                </div>
+                <div class="sec-content">
+                    <h1 class="sec-header">Galle</h1>
+                    
+                    
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Interdum consectetur libero id faucibus nisl tincidunt eget. Feugiat nisl pretium fusce id velit ut tortor pretium. A pellentesque sit amet porttitor eget dolor morbi. Aliquam malesuada bibendum arcu vitae 
+                        elementum curabitur vitae nunc sed. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor</p>
+                </div>
+                
+            </section>
+            <br>
+            <section class="sec">
+                
+                
+                <div class="sec-content">
+                    <h1 class="sec-header">Colombo</h1>
+                    
+                    <br>
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Interdum consectetur libero id faucibus nisl tincidunt eget. Feugiat nisl pretium fusce id velit ut tortor pretium. A pellentesque sit amet porttitor eget dolor morbi. Aliquam malesuada bibendum arcu vitae 
+                        elementum curabitur vitae nunc sed. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor</p>
+                </div>
+                <div class="sec-img ">
+                    <img src="images/colombo.jpeg">
+                </div>
+            </section>
+            <br><Br>
+
+
+            
+.sec{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 50px;
+    width: 100%;
+    background: #dfebec;
+    border-radius: 10px;
+    padding: 20px ;
+    box-sizing: border-box;
+    gap: 2rem;
+    
+    transition: 0.5s;  
+ }
+
+.sec-img img{
+    width: 400px;
+    height: 300px;
+    overflow: hidden; 
+
+}
+
+ .sec-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    flex-direction: column;
+ }
+
+
+ .para {
+    font-weight: 500;
+ }
+/*
+ .sec:nth-of-type(2) .sec-content,
+ .sec:nth-of-type(4) .sec-content{
+    text-align: center;
+ }
+*/
+ .sec:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+    transform: scale(1.02);
+ }
+
+.sec-header {
+    font-size: 36px;
+    font-weight: 1000;
+    
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+
+
+
+
+
+
+TABLEEEEEEEEEEEEEEEEEE
+
+
+
+<!-- <section  class="BranchTable">
+            <main class="table">
+        
+                <section class="table_header">
+                    <h1>All Our Branches</h1>
+                </section>
+                <section class="table_body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Branch</th>
+                                <th>Image</th>
+                                <th>map</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <div>
+                                <tr>
+                                    <td>Jaffna</td>
+                                    <td>★★★☆☆ </td>
+                                    <td><p><a href="tel:+12852525">+94 213 242 43</a></p></td>
+                                </tr>
+                                <tr>
+                                    <td>colombo</td>
+                                    <td> <img src="images/colombo.jpeg"> </td>
+                                    <td><iframe src="http://maps.google.co.uk/maps?q=LeGrandGalle &amp;output=embed" width="300" height="200" frameborder="1" scrolling="no"></iframe></td>
+                                </tr>
+                                <tr>
+                                    <td>Trincomalee</td>
+                                    <td><img src="images/trinco.webp"></td>
+                                    <td><iframe src="http://maps.google.co.uk/maps?q=LeGrandGalle &amp;output=embed" width="300" height="200" frameborder="1" scrolling="no"></iframe></td>
+                                </tr>
+                                <tr>
+                                    <td>galle</td>
+                                    <td><img src="images/galle1.jpg"> </td>
+                                    <td><iframe src="http://maps.google.co.uk/maps?q=LeGrandGalle &amp;output=embed" width="300" height="200" frameborder="1" scrolling="no"></iframe></td>
+                                </tr>
+
+             
+                            </div>
+                            
+                        </tbody>
+                    </table>
+
+
+
+                </section>
+
+
+
+            </main>
+        </section> 
+        
+        </section> ---->
+
+
+
+
+
+
+
+
+        .branch-topic{
+
+  width: 100%;
+  color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.branch-topic h1{
+  font-size: 100px;
+  
+  
+
+}
+
+
+
+.branch-topic p{
+  margin: 10px 0 40px;
+  font: 14px;
+  color: white;
+  
+}
+
+.branch-topic::before, .branch-topic::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.branch-topic::before {
+  background-color: rgba(0,0,0,0.5);
+  filter: blur(20px);
+}
+
+
+
+
+.BranchTable{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+ .branch-header{
+  min-height: 100%;
+  width: 100%;
+  background-image:  linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("images/branches1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+td img{
+    width: 300px;
+    height: 200px;
+    margin-right: .5rem;
+    /*border-radius: 50%; */
+
+    vertical-align: middle;
+}
+
+
+
+
+table,th,td{
+    padding: 1rem;
+    border-collapse: collapse; 
+    text-align: left;
+    height: 100%;
+
+}
+
+main.table{
+    width: 90vw;
+    height: 90%;
+    background-color: #fff5;    
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: 1rem;
+
+    overflow: hidden;
+
+}
+
+
+
+
+.table_header{
+    width: 100%;
+    height: 10%;
+    margin-right: .5rem;
+    
+    background-color: #fff4;
+    padding: .8rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table_body{
+    width: 90%;
+    max-height: 100%;
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: hidden;
+    
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+
+
+}
+
+
+
+
+td img{
+    width: 300px;
+    height: 200px;
+    margin-right: .5rem;
+    /*border-radius: 50%; */
+
+    vertical-align: middle;
+}
+
+
+
+
+table,th,td{
+    padding: 1rem;
+    border-collapse: collapse; 
+    text-align: left;
+    height: 100%;
+
+}
+
+main.table{
+    width: 90vw;
+    height: 90%;
+    background-color: #fff5;    
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: 1rem;
+
+    overflow: hidden;
+
+}
+
+
+
+
+.table_header{
+    width: 100%;
+    height: 10%;
+    margin-right: .5rem;
+    
+    background-color: #fff4;
+    padding: .8rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table_body{
+    width: 90%;
+    max-height: 100%;
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: hidden;
+    
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+
+
+}
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kingsman Hotels</title>
+        <link rel="stylesheet" href="home.css">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="E:\UNI\WDOS\Hotel real\favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="E:\UNI\WDOS\Hotel real\favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="E:\UNI\WDOS\Hotel real\favicons/favicon-16x16.png">
+        <link rel="manifest" href="E:\UNI\WDOS\Hotel real\favicons/site.webmanifest">
+        <link rel="mask-icon" href="E:\UNI\WDOS\Hotel real\favicons/safari-pinned-tab.svg" color="#f5f5f5">
+        <link rel="shortcut icon" href="E:\UNI\WDOS\Hotel real\favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#f5f5f5">
+        <meta name="msapplication-config" content="E:\UNI\WDOS\Hotel real\favicons/browserconfig.xml">
+        <meta name="theme-color" content="#f5f5f5">
+        
+
+
+    </head>
+
+    <body class="book-body">
+        <section class="book-header">
+            <nav>
+                <a href="#"><img id="logo"   src="images/oglogo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <img src="images/icons/cross2.png" class="fa" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="branches.html">Branches</a></li>
+                        <li><a href="adventures.html">Adventure</a></li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li>
+                            <a href="#">Events ▼</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Weddings</a></li>
+                                <li><a href="#">Workshops </a></li>
+                            </ul>                                                                       
+                        </li>
+                        <li><a href="booking.html">Bookings</a></li>
+                    </ul>
+                </div>
+                <img src="images/icons/menubar.png" class="fa" onclick="showMenu()">
+            </nav>
+        
+            <div class="rest-topic">
+                <h1>Book Your Stay</h1>
+            </div>
+        </section>
+        
+        <section class="main-book">
+            
+
+            <div class="book-container">
+                <div class="book-title">Personal Details</div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Gmail</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">address</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">postal code</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">postal code</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+            </section>
+
+        <section class="main-book">
+
+            <div class="book-container">
+                <div class="book-title">Booking Rooms</div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Gmail</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">address</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">postal code</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">postal code</span>
+                            <input type="text" placeholder="xxxxxxxxx" required>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+            </section>
+
+            <section class="main-book">
+
+                <div class="book-container">
+                    <div class="book-title">Booking Adventures</div>
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Full Name</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Username</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Gmail</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">address</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">postal code</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">postal code</span>
+                                <input type="text" placeholder="xxxxxxxxx" required>
+                            </div>
+                        </div>
+                   
+                    </form>                     
+                </div>                  
+                </section>
+
+                <footer>
+                    <div class="footer-container">
+        
+                        <div class="foot-logo">
+                            <img src="images/oglogo.png">
+                        </div>
+                        
+                        <div class="sec-aboutus">
+                            <h2>About Us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            <ul class="sci">
+        
+                                <li><a href="#"><img src="images/icons/insta1.png" ></a></li>
+                                <li><a href="#"><img src="images/icons/twitter.png"></a></li>
+                                <li><a href="#"><img src="images/icons/facebook.png"></a></li>
+                                <li><a href="#"><img src="images/icons/youtube.png"></a></li>
+                                <li><a href="#"><img src="images/icons/linkedin.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="sec-quicklinks">
+                            <h2>Quick Pages</h2>
+                            <ul>
+                                <li> <a href="branches.html">Branches</a> </li>
+                                <li> <a href="adventures.html">Adventures</a> </li>
+                                <li> <a href="restaurant.html">Restaurants</a> </li>
+                                <li> <a href="booking.html">Bookings</a> </li>
+                                <li> <a href="#">Events</a> </li>
+                            </ul>
+                        </div>
+        
+                        <div class="hours">
+                            <h2>Operating hours</h2>
+                            <p> Mon-Sat : 8AM to 6PM</p> <br>
+                            <p> Sun : 8AM to 2PM</p>
+                        </div>
+                        <div class="sec-contact">
+                            <h2>Contact Us</h2>
+                            <ul class="info">
+                                <li>
+                                    <span><img src="images/icons/mapmark.png"></span>
+                                    &nbsp;&nbsp;&nbsp;<p>&nbsp;420 Glock Street<Br>
+                                    Sri Lanka, Pw 3433, <BR>SL</p>
+                                </li>
+                                <li>
+                                    <span><img src="images/icons/phone3.png" ></span>
+                                    <p><a href="tel:+12852525">+94 213 242 43</a><br>
+                                        <a href="tel:+12852525">+235 1542 2626</a></p>   
+                                </li>
+                                <li>
+                                    <span><img src="images/icons/envelope.png"></span>
+                                    <p><a href="mailto:Kingsman@gmail.com">Kingsman@gmail.com</a> </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                </footer>
+                <div class="copyright-text">
+                    <p>Copyright © 1969 Kingsman Hotels. All Rights Reserved</p>
+                </div>
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+    
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+    
+    
+    
+    
+        </script>
+    </body>
+
+
+</html>
+
