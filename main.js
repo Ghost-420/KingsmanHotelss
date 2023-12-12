@@ -236,6 +236,12 @@ function checkLoyality() {
     else {
         loyalTxt.textContent = `Order more than 3 rooms for 20 loyality points per room! `;
     }
+
+    let loyal_serial = JSON.stringify(loyalPoints);
+
+    
+
+    localStorage.setItem("Loyality Points", loyal_serial);
     
 
 
